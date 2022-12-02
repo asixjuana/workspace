@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Downloads/base/base"
+		},
+		{
+			"name": "workspace-1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#431565",
+			"titleBar.activeBackground": "#5E1D8D",
+			"titleBar.activeForeground": "#FDFCFE"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "workspace-1"
+	}
+}

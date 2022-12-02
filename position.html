@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        .caja-roja {
+            border: 3px solid red;
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            
+            
+        }
+        .caja-azul {
+            border: 3px solid blue;
+            width: 150px;
+            height: 80px; 
+            
+            left: 250px;
+            top: 20px;
+        }
+        .caja-verde {
+            border: 3px solid green;
+            width: 400px;
+            height: 130px;
+            margin: 30px;
+            position: relative;
+        }
+        .caja-naranja {
+            border: 3px solid orange;
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="caja-roja">contenedor 1</div>
+    <div class="caja-azul">contenedor 2</div>
+    <div class="caja-verde">
+     <div class="caja-roja"></div>
+     <div class="caja-azul"></div>
+
+    </div>
+    <div class="caja-naranja">contenedor 4</div>
+
+
+  
+</body>
+</html>
+
